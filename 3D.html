@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<link rel="stylesheet"
+    href="C:\Users\PRACHI\.vscode\Vs Code Files\Bootstrap\icon\fontawesome-free-6.2.1-web\css\all.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+    <title>3D</title>
+</head>
+
+<body>
+    <section>
+        <div class="row justify-content-around">
+            <div class="col-6 "> Technical Help - +91-8792462607</div>
+            <div class="col-4 text-end text-info">Welcome, SBIC Admin - Logout</div>
+        </div>
+    </section>
+
+    <!-- top nav starts -->
+    <nav class="navbar navbar-expand-xl navbar-dark sticky-top bg-dark shadow-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-5 px-5 fw-bold" href="#">Admin SBIC-UP</a>
+
+            <!-- collapse button starts -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- collapse button starts -->
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item ps-xl-5 pa-xxl-5 ps-md-0 ps-sm-0 pe-xl-3">
+                        <a class="nav-link active" aria-current="page" href="index.html"><i class="fa fa-home"></i>
+                            Dashboard</a>
+                    </li>
+                    
+                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown pe-xl-3">
+                                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <i class="fa fa-plus"></i>
+                                    Admission
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="3D.html" target="_blank">New Admission</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="3E.html" target="_blank">Admission List </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 
+                    <li class="nav-item ps-xl-5 pa-xxl-5 ps-md-0 ps-sm-0">
+                        <a class="nav-link active" href="3H.html" target="_new"><i class="fa fa-suitcase"></i> Fee
+                            Payment</a>
+                    </li> -->
+
+                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown2">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown pe-xl-3">
+                                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <i class="fa fa-suitcase"></i>
+                                    Fee Payment
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="3H.html" target="_blank">Fee Collection</a></li>
+                                    <li><a class="dropdown-item" href="3J.html" target="_blank">Total Payments </a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- <li class="nav-item ps-xl-5 pa-xxl-5 ps-md-0 ps-sm-0">
+                        <a class="nav-link active" href="3F.html" target="_blank"><i class="fa fa-train"></i>
+                            Transport</a>
+                    </li> -->
+
+                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown3">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown pe-xl-3">
+                                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <i class="fa fa-train"></i> Transport
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="3F.html" target="_blank">Transport Users </a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="3K.html" target="_blank">Manage Transport </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <li class="nav-item pe-xl-3">
+                        <a class="nav-link active" href="3G.html" target="_blank"><i
+                                class="fa-sharp fa-solid fa-pen-to-square"></i> Exam</a>
+                    </li>
+                    <li class="nav-item pe-xl-3 ">
+                        <a class="nav-link active" href="3C.html" target="_blank"><i class="fa fa-star"></i>
+                            Activity</a>
+                    </li>
+                    <!-- <li class="nav-item ps-xl-5 pa-xxl-5 ps-md-0 ps-sm-0">
+                        <a class="nav-link active" href="3B.html" target="_blank">
+                            <i class="fa-sharp fa-solid fa-gears"></i>
+                            Admin</a>
+                    </li> -->
+
+                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown4">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown pe-xl-3 ">
+                                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <i class="fa-sharp fa-solid fa-gears"></i>
+                                    Admin
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="3B.html" target="_blank">New Employee </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown5">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <i class="fa fa-tools"></i> Account
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="" target="_blank">Logout</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- <li class="nav-item ps-xl-5 pa-xxl-5 ps-md-0 ps-sm-0">
+                        <a class="nav-link active" href="" target="_blank"><i class="fa fa-tools"></i> Account</a>
+                    </li> -->
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- top nav ends -->
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-12 text-danger tw-italic"> * Marked fields are mandatory! </div>
+        </div>
+
+        <div class="row mb-4 mt-1 text-center fw-bold fs-3">
+            <div class="col-lg-5 text-info">
+                <i class="fa fa-user-plus"></i> New Admission
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="card border-info mb-5">
+                    <div class="card-header  bg-info-subtle text-info-emphasis border-info">Student Details
+                    </div>
+                    <div class="card-body fw-bold">
+                        <div class="row mb-3">
+                            <div class="col-lg-12">
+                                <label for="">Student Name <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <label for="">Date of Birth <span class="text-danger">*</span></label>
+                            </div>
+                        </div>
+                        <div class="row  mb-3">
+                            <div class="col-lg-4">
+                                <select name="" id="" class="form-select">
+                                    <option value="">Day</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-4">
+                                <select name="" id="" class="form-select">
+                                    <option value="">Month</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-4">
+                                <select name="" id="" class="form-select">
+                                    <option value="">Year</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">Admission Class <span class="text-danger">*</span></div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-lg-6">
+                                <select name="" id="" class="form-select">
+                                    <option value="">Choose</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-6">
+                                <select name="" id="" class="form-select">
+                                    <option value="">Choose Section</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <label for="">Date of Admission <span class="text-danger">*</span></label>
+                            </div>
+                        </div>
+                        <div class="row  mb-3">
+                            <div class="col-lg-4">
+                                <select name="" id="" class="form-select">
+                                    <option value="">Day</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-4">
+                                <select name="" id="" class="form-select">
+                                    <option value="">Month</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-4">
+                                <select name="" id="" class="form-select">
+                                    <option value="">Year</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row  mb-3">
+                            <div class="col-lg-12">
+                                <label for="">Admission Session <span class="text-danger">*</span></label>
+                                <select name="" id="" class="form-select">
+                                    <option value="">Choose </option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row  mb-3">
+                            <div class="col-lg-12">
+                                <label for="">Old School</label>
+                                <input type="text" name="" id="" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="card">
+                    <div class="card-header">Parent Details</div>
+                    <div class="card-body fw-bold">
+                        <div class="row mb-3">
+                            <div class="col-lg-3">
+                                <label for="">Father's Name <span class="text-danger">*</span></label>
+                            </div>
+                            <div class="col-lg-3">
+                                <input type="text" name="" id="" class="form-control">
+                            </div>
+                            <div class="col-lg-3">
+                                <label for="">Mother's Name</label>
+                            </div>
+                            <div class="col-lg-3">
+                                <input type="text" name="" id="" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-lg-3">
+                                <label for="">Mobile Number <span class="text-danger">*</span></label>
+                            </div>
+                            <div class="col-lg-3">
+                                <input type="number" name="" id="" class="form-control">
+                            </div>
+                            <div class="col-lg-3">
+                                <label for="">Aadhar No</label>
+                            </div>
+                            <div class="col-lg-3">
+                                <input type="number" name="" id="" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-lg-3">
+                                <label for="">Religion</label>
+                            </div>
+                            <div class="col-lg-3">
+                                <input type="text" name="" id="" class="form-control">
+                            </div>
+                            <div class="col-lg-3">
+                                <label for="">Caste</label>
+                            </div>
+                            <div class="col-lg-3">
+                                <select name="" id="" class="form-select">
+                                    <option value="">Choose</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-lg-6">
+                                <label for="">Parent Occupation</label>
+                                <input type="text" name="" id="" class="form-control">
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="">Any ID Proof No</label>
+                                <input type="number" name="" id="" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mb-5">
+                            <div class="col-lg-12">
+                                <label for="">Address</label>
+                                <textarea name="" id="" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="row text-center mb-5">
+                            <div class="col-lg-12">
+                                <button class="btn btn-info text-white me-3">Register</button>
+                                <button class="btn btn-warning text-white">Clear All</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
