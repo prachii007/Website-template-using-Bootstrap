@@ -1,0 +1,21 @@
+.maroon {
+    color: maroon;
+}
+
+.violet {
+    color: blueviolet;
+}
+
+.gray {
+    background: #e9ecef;
+
+}
+
+.text_gray {
+    color: #b4b7b7;
+}
+
+.px_5 {
+    padding-left: 120px !important;
+    padding-right: 120px !important;
+}
